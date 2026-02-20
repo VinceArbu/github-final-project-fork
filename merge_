@@ -1,0 +1,27 @@
+PS C:\Users\arbut\GitFork\github-final-project-fork> git checkout -b bug-fix-typo
+
+Switched to a new branch 'bug-fix-typo'
+
+PS C:\Users\arbut\GitFork\github-final-project-fork> git add README.md
+
+PS C:\Users\arbut\GitFork\github-final-project-fork> git commit -m "Fix typo in README"
+
+[bug-fix-typo 70daa67] Fix typo in README
+
+ 1 file changed, 2 insertions(+)
+
+PS C:\Users\arbut\GitFork\github-final-project-fork> git checkout main
+
+Switched to branch 'main'
+
+Your branch is up to date with 'origin/main'.
+
+PS C:\Users\arbut\GitFork\github-final-project-fork> git merge bug-fix-typo
+
+Updating ad95b0a..70daa67
+
+Fast-forward
+
+ README.md | 2 ++
+
+ 1 file changed, 2 insertions(+)
